@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Welcome to CoCoaTalk</title>
+    <title>Friends - CoCoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,21 +26,28 @@
         <!-- Lightening Icon -->
       </div>
     </div>
-
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to CoCoaTalk</h1>
-      <p class="welcome-header__text">
-        If you have a cocoa Account, log in with your email or phone number.
-      </p>
-    </header>
-
-    <form action="friends.html" method="GET" class="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
-      <a href="#">Find Cocoa Account or Password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><span class="nav__notification">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><div class="nav__notification-dot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/fe1ab5bd41.js"
