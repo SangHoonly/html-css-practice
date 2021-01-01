@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Chats - CoCoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+        <!-- Time Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- Battery Icon -->
+        <!-- Lightening Icon -->
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX64QAAAAD/6AD/5QD/6QD/6wB9cACThQC2pAD94wCMfgDw2ABHQAD23QCpmADmzwBpXwCikgDItACZiQB3awDQuwC7qACDdgAhHQBQSAAQDwAcGQArJwAwLABcUwDfyQCwngBjWQDWwQDhywDBrQAWFAAkIQBxZQA2MQAKCQBDPQBdVABVE2GJAAAC/ElEQVR4nO3Z23KiMACA4RyINSBFUDy1VYu6u92+//styEFrqXXazjBh/++mU73JP5CEoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgI5pZWxQsEbprgfz87QJZvPRQhYWo/ksMP2KVHa4lG8th1Z1Pawfo3W8ku+tYt2T62iSh5a+wkNiuh7cD7B6/kFfYa5t1wP8LhuOrgRKOQodT7Th49VAKR9dT3z6JFDKp66H+C1q/WmglGuHdw0V3xAoZexsoo1uCpQycnUqmvGNhWNHt0W7aRIW/j7LZvXGOM6yydvEjZsXUQ3qgK1W2lrtCf/478Co4dvCgaMzsR7/TgmrVHFiMrOyR18Uyq6H+iU6rUafaaGiyXQaB1qYSXth6uIzuCpvSXnnlV1lh1rUhYfFWaHv4m3qPZeDD4Xe1iGR9uJj4XYaKBX6TeGz1/Vwv8AcjmNf52NvTofz3WZ/XFcipfNThbmrvzi4uF+Y+v6z2cWkywutTYaBFV7zmcOF+UF+/75QFWeqwHq/e1B4p2z6rrD86F4rvweFY0+ETdvInw9Ou4Xzhb/Ksec7RPOMlpliz28pXLq4lta7xVCJerrlxySzbC108rFNVVvBIbRC7V8Ph3HqCZXI1sKZi880OqknX77z6fy5VOV/ItleGDh5uGgWmD+RKV4aWm3KVXVgvLLQM1Xh2sVpmE/EabOGTpNAhMG+emszTtPjHeynaTVB9y7epPk1251vgm3v9WtPLq4zhbOLeF3i5iXMhS83Bbr6mkacHYKvWrn81vvyfUyrjbP3aMFsPw1MXF1mKt7l0elS6nhgfqPurv369LBzPjC/ipOPAwfu/0AqTk/g7/3N3HxYu/RR4XNq+nABRXvhy3gbeE5vEudOhWmQDbf322EWKa8XE7BSF67D4teZgu1RXaEqjL2edZ0cC1c9WTZbFYWvYW+WlRbKl7G7x6Nb2E3Wgyezq/q2dAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4T/wDX0IdACH/NfgAAAAASUVORK5CYII="
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">KakaoTalk</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Kakao Account Info
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column user-component__column--chat">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html"
+            ><span class="nav__notification badge">1</span
+            ><i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><div class="nav__notification-dot"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/fe1ab5bd41.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
