@@ -1,0 +1,14 @@
+#chat-screen {
+  background-color: #abc1d1;
+}
+
+#chat-screen .screen-header {
+  z-index: 1;
+  background-color: #abc1d1;
+  position: fixed;
+  display: flex;
+}
+
+.main-chat {
+  padding-top: 50px;
+}
