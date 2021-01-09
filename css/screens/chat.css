@@ -2,13 +2,24 @@
   background-color: #abc1d1;
 }
 
-#chat-screen .screen-header {
-  z-index: 1;
-  background-color: #abc1d1;
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  top: 0;
   position: fixed;
-  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
+  top: 10px;
+  z-index: 1;
 }
 
 .main-chat {
-  padding-top: 50px;
+  margin-top: 130px;
 }
