@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  border: solid 3px #00c6ac;
+  padding: 25px 20px;
+  width: 300px;
+}
+.header {
+  margin: 30px 0;
+  display: flex;
+}
+
+
+.header__title{
+  width: 88%;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 20px;
+}
+
+.img-box {
+  position: relative;
+}
+
+.img-box__img {
+  width: 100px;
+  height: 100px;
+  background-color: #ffbc12;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.img-box .fa-image {
+  position: absolute;
+  top:37px;
+  left: 34px;
+  font-size: 30px;
+  color: white;
+}
+
+.now-playing {
+  display: flex;
+}
+
+.now-playing__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.now-playing__title {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.now-playing__artist {
+  margin-top: 3px;
+  font-weight: bolder;
+}
+
+.play-list__bars {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+
+.play-list__play-btn {
+  width: 130px;
+  height: 40px;
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-bottom: solid 5px black;
+}
+
+.play-list__play-btn span {
+  padding: 0 5px;
+  font-weight: bolder;
+}
+
+.play-list__plus,
+.play-list__heart{
+  height: 40px;
+  width: 40px;
+    border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border-bottom: solid 5px black;
+}
+
+.play-list__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.play-list__item {
+display: flex;
+}
+
+.item__text {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item__title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.item__artist {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.8)
+}
+
+.item__color {
+  width: 45px;
+  height: 45px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.first{
+  background-color: tomato;
+}
+
+.second {
+  background-color: #ff89ba;
+}
+.third {
+  background-color: #50d4c1;
+}
+
+.last {
+  background-color: #1a47e4;
+}
