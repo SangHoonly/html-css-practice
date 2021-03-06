@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff6446;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-square {
+  width: 500px;
+  height: 500px;
+  background-color: #f5deb3;
+  border: 5px solid;
+}
+
+.divison {
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top, .bottom {
+  width: 100px;
+  height: 100px;
+  background-color: #028080;
+  border: 5px solid white;
+
+}
+
+.middle {
+  width: 300px;
+  height: 100px;
+  background-color: #028080;
+  border: 2px solid white;
+  border-style: dashed;
+}
